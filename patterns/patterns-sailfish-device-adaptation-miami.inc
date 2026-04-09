@@ -6,6 +6,8 @@ Summary: Jolla HW Adaptation miami
 Requires: droid-hal-miami
 Requires: droid-hal-miami-img-boot
 Requires: droid-hal-miami-kernel-modules
+Requires: droid-hal-miami-kernel-dtbo
+Requires: droid-hal-miami-vendor_boot
 Requires: droid-config-miami-sailfish
 Requires: droid-config-miami-pulseaudio-settings
 Requires: droid-config-miami-policy-settings
@@ -19,8 +21,21 @@ Requires: libhybris-libEGL
 Requires: libhybris-libGLESv2
 Requires: libhybris-libwayland-egl
 
+# For mount partitions
+Requires: parse-android-dynparts
+
+# Bluetooth
+Requires: bluebinder
+
+# Telephony
+Requires: ofono-binder-plugin
+Requires: dummy_netd
+
 # Sensors
 Requires: hybris-libsensorfw-qt5
+
+# Needed for /dev/touchscreen symlink
+Requires: qt5-plugin-generic-evdev
 
 # Vibra
 Requires: ngfd-plugin-native-vibrator
@@ -35,7 +50,7 @@ Requires: pulseaudio-modules-droid-hidl
 # The -dummy-af is needed for newer devices that run the main
 # audiosystem-passthrough in qti mode (e.g. >=Android 9 Qualcomm),
 # to fix non-responding Camera app and/or voice during a phone call:
-#Requires: audiosystem-passthrough-dummy-af
+Requires: audiosystem-passthrough-dummy-af
 
 # for audio recording to work:
 Requires: qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
