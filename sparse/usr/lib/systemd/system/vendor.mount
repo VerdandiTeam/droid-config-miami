@@ -5,7 +5,7 @@ Before=local-fs.target systemd-modules-load.service
 [Mount]
 What=/dev/mapper/dynpart-vendor_a
 Where=/vendor
-Type=erofs
+Type=ext4
 Options=ro
 # Options had SELinux context option:  
 
