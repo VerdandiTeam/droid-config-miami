@@ -39,3 +39,5 @@ service mediaextractor /system/bin/mediaextractor_HYBRIS_DISABLED
 service mediametrics /system/bin/mediametrics_HYBRIS_DISABLED
 
 service bpfloader /system/bin/netbpfload_HYBRIS_DISABLED
+
+service vendor.dataqti /system/vendor/bin/qti_HYBRIS_DISABLED
