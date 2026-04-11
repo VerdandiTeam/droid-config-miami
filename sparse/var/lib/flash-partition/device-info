@@ -1,0 +1,11 @@
+CPUCHECK_STRING="miami"
+
+PART_1="boot"
+PART_2="dtbo"
+PART_3="vendor_boot"
+
+PART_REAL_1="sdd18"
+PART_REAL_2="sdd20"
+PART_REAL_3="sdd19"
+
+PART_I="1 2 3"
