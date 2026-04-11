@@ -1,0 +1,2 @@
+[apps/jolla-camera]
+backCameraLabels=["1.0x", "0.7x"]
