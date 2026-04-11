@@ -8,7 +8,7 @@
 
 %define android_version_major 15
 
-%define pixel_ratio 1.3
+%define pixel_ratio 1.5
 
 Provides: ofono-configs
 Obsoletes: ofono-configs-mer
