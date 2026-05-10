@@ -30,6 +30,7 @@ Requires: bluebinder
 # Telephony
 Requires: ofono-binder-plugin
 Requires: dummy_netd
+Requires: ofono-binder-plugin-ext-qti
 
 # Sensors
 Requires: hybris-libsensorfw-qt5
@@ -69,6 +70,7 @@ Requires: mce-plugin-libhybris
 
 # USB mode controller
 Requires: usb-moded
+Requires: usb-state
 
 # hammerhead, grouper, and maguro use this in scripts, so include for all
 Requires: rfkill
