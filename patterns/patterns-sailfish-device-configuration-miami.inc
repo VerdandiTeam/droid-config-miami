@@ -40,6 +40,12 @@ Requires: geoclue-provider-mlsdb
 # to improve camera startup times and the like
 Requires: mapplauncherd-booster-silica-qt5-media
 
+# bloat
+Recommends: harbour-storeman
+Recommends: sailfishos-chum-gui
+Recommends: punky 
+Recommends: verdandiupdater-sfos
+
 # Remove busybox
 Requires: gnu-bash
 Requires: gnu-coreutils
