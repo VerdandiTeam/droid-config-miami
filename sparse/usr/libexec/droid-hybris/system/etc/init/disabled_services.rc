@@ -41,3 +41,9 @@ service mediametrics /system/bin/mediametrics_HYBRIS_DISABLED
 service bpfloader /system/bin/netbpfload_HYBRIS_DISABLED
 
 service vendor.dataqti /system/vendor/bin/qti_HYBRIS_DISABLED
+
+service vendor.usb-hal /vendor/bin/hw/android.hardware.usb-service.qti_HYBRIS_DISABLED
+
+service vendor.usbgadget-hal /vendor/bin/hw/android.hardware.usb.gadget-service.qti_HYBRIS_DISABLED
+
+service usbd /system/bin/usbd_HYBRIS_DISABLED
