@@ -40,6 +40,17 @@ Requires: geoclue-provider-mlsdb
 # to improve camera startup times and the like
 Requires: mapplauncherd-booster-silica-qt5-media
 
+# Remove busybox
+Requires: gnu-bash
+Requires: gnu-coreutils
+Requires: gnu-diffutils
+Requires: gnu-findutils
+Requires: gnu-grep
+Requires: gnu-gzip
+Requires: gnu-sed
+Requires: gnu-tar
+Requires: gnu-which
+
 %description -n patterns-sailfish-device-configuration-miami
 Pattern with packages for miami configurations
 
