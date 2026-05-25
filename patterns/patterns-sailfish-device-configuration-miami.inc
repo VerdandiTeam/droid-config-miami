@@ -46,6 +46,8 @@ Recommends: sailfishos-chum-gui
 Recommends: punky 
 Recommends: verdandiupdater-sfos
 
+Requires: miami-otg
+
 # Remove busybox
 Requires: gnu-bash
 Requires: gnu-coreutils
