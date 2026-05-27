@@ -1,0 +1,5 @@
+AUTHOR=mister_magister
+EMAIL=mister0magister@gmail.com
+BROKEN=SMS when VoLTE is enabled,Wide angle back camera
+FEATURES=120Hz screen,5G,VoLTE
+DEVICE=Edge 30 Neo
