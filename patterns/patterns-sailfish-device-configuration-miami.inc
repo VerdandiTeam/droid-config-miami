@@ -60,6 +60,9 @@ Requires: gnu-sed
 Requires: gnu-tar
 Requires: gnu-which
 
+# Battery page
+Requires: verdanditeam-settings-battery
+
 %description -n patterns-sailfish-device-configuration-miami
 Pattern with packages for miami configurations
 
