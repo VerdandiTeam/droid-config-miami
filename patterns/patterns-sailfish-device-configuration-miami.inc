@@ -46,8 +46,8 @@ Recommends: sailfishos-chum-gui
 Recommends: punky 
 Recommends: verdandiupdater-sfos
 
-Requires: miami-otg
-Requires: motorola-gestures
+Obsoletes: miami-otg
+Obsoletes: motorola-gestures
 
 # Remove busybox
 Requires: gnu-bash
