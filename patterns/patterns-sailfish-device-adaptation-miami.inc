@@ -70,7 +70,7 @@ Requires: mce-plugin-libhybris
 
 # USB mode controller
 Requires: usb-moded
-Requires: usb-state
+Obsoletes: usb-state
 
 # hammerhead, grouper, and maguro use this in scripts, so include for all
 Requires: rfkill
