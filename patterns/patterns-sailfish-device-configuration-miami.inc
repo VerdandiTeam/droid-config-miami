@@ -60,8 +60,8 @@ Requires: gnu-sed
 Requires: gnu-tar
 Requires: gnu-which
 
-# Battery page
-Requires: verdanditeam-settings-battery
+# VerdandiTeam branding
+Requires: verdanditeam-branding
 
 %description -n patterns-sailfish-device-configuration-miami
 Pattern with packages for miami configurations
