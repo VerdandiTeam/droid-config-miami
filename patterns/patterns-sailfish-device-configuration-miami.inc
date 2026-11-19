@@ -47,7 +47,7 @@ Recommends: punky
 Recommends: verdandiupdater-sfos
 
 Obsoletes: miami-otg
-Obsoletes: motorola-gestures
+Requires: motorola-gestures
 
 # Remove busybox
 Requires: gnu-bash
