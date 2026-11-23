@@ -76,7 +76,10 @@ Obsoletes: usb-state
 Requires: rfkill
 
 # enable device lock and allow to select untrusted software
-Requires: jolla-devicelock-daemon-encsfa
+# sailfish-devicelock-fpd replaces jolla-devicelock-daemon-encsfa and adds
+# fingerprint unlock via sailfish-fpd-community
+Requires: sailfish-devicelock-fpd
+Requires: sailfish-fpd-community
 
 # Enable home encryption
 # Requires: sailfish-device-encryption-community
