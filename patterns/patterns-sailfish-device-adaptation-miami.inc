@@ -80,6 +80,7 @@ Requires: rfkill
 # fingerprint unlock via sailfish-fpd-community
 Requires: sailfish-devicelock-fpd
 Requires: sailfish-fpd-community
+Obsoletes: jolla-devicelock-daemon-encsfa
 
 # Enable home encryption
 # Requires: sailfish-device-encryption-community
