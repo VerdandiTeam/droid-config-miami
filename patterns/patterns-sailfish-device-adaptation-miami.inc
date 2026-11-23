@@ -81,6 +81,7 @@ Requires: rfkill
 Requires: sailfish-devicelock-fpd
 Requires: sailfish-fpd-community
 Obsoletes: jolla-devicelock-daemon-encsfa
+Obsoletes: jolla-devicelock-plugin-encsfa
 
 # Enable home encryption
 # Requires: sailfish-device-encryption-community
